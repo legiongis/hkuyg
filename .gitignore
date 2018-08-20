@@ -1,4 +1,6 @@
 # Arches stuff
+hkuyg/static
+hkuyg/uploadedfiles/*
 package_settings.py
 settings_local.py
 hkuyg/media/packages
