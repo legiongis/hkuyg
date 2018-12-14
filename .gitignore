@@ -8,6 +8,7 @@ hkuyg/node_modules
 pkg/business_data/*.json
 pkg/v3data/business_data/*.json
 pkg/v3data/business_data/*.relations
+node_modules
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
