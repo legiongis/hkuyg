@@ -5,6 +5,9 @@ package_settings.py
 settings_local.py
 hkuyg/media/packages
 hkuyg/node_modules
+pkg/business_data/*.json
+pkg/v3data/business_data/*.json
+pkg/v3data/business_data/*.relations
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

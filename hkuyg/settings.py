@@ -28,6 +28,8 @@ DEBUG = True
 
 ROOT_URLCONF = 'hkuyg.urls'
 
+PACKAGE_DIR = os.path.join(os.path.dirname(APP_ROOT),"pkg")
+
 # a prefix to append to all elasticsearch indexes, note: must be lower case
 ELASTICSEARCH_PREFIX = 'hkuyg'
 
