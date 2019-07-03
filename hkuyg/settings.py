@@ -5,6 +5,7 @@ Django settings for hkuyg project.
 import os
 import arches
 import inspect
+import datetime
 
 try:
     from arches.settings import *
@@ -108,9 +109,9 @@ CACHES = {
 #Identify the usernames and duration (seconds) for which you want to cache the time wheel
 CACHE_BY_USER = {'anonymous': 3600 * 24}
 
-APP_TITLE = 'Arches | Heritage Data Management'
+APP_TITLE = 'Yangon Heritage'
 COPYRIGHT_TEXT = 'All Rights Reserved.'
-COPYRIGHT_YEAR = '2018'
+COPYRIGHT_YEAR = str(datetime.datetime.now().year)
 
 try:
     from package_settings import *
